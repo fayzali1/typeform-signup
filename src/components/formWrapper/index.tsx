@@ -29,7 +29,7 @@ export default function FormWrapper({
         </div>
       </div>
       <div className="flex items-center justify-center h-full text-center">
-        <div className="flex flex-col items-center justify-center h-full container max-w-xl gap-7">
+        <div className="flex flex-col items-center justify-center h-full container max-w-64 md:max-w-xl  gap-7">
           <div className="flex items-center gap-2.5">
             <LogoIcon />
             <BrandIcon />

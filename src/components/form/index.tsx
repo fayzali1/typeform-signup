@@ -10,7 +10,6 @@ import { MdError } from "react-icons/md";
 
 export default function SignupForm() {
   const [passVisible, setPassVisible] = useState<boolean>(false);
-  const [isAgreed, setIsAgreed] = useState<boolean>(false);
 
   const handlePasswordValidation: Form.CustomMatcher = (value) => {
     const regex =
@@ -34,7 +33,7 @@ export default function SignupForm() {
   };
 
   return (
-    <div className="w-full md:max-w-64">
+    <div className="w-full max-w-64">
       {" "}
       <Form.Root onSubmit={handleSubmit} className="space-y-4">
         <Form.Field name="email">
